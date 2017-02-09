@@ -112,7 +112,7 @@
                                 </li>
                                 <li><a href="about-us.html">About</a></li>
 								<li><a href="about-us.html">Infrastructure</a></li>
-                                <li ><a href="#">Products</a>
+                                <li ><a href="services.html">Products</a>
                                     <ul>
 										<li><a href="services.html">First Product</a></li>
                                         <li><a href="services.html">Second Product</a></li>
@@ -120,7 +120,7 @@
                                         <li><a href="services.html">Fourth Product</a></li>
                                     </ul>
                                 </li>
-                                <li><a href="#">Our Brands</a>
+                                <li ><a href="services.html">Products</a>
                                 </li>
                                 <li class="current"><a href="contact.html">Contact</a></li>
                             </ul>
@@ -160,7 +160,7 @@
                                 </li>
                                 <li><a href="about-us.html">About</a></li>
 								<li><a href="about-us.html">Infrastructure</a></li>
-                                <li ><a href="#">Products</a>
+                                <li ><a href="services.html">Products</a>
                                     <ul>
 										<li><a href="services.html">First Product</a></li>
                                         <li><a href="services.html">Second Product</a></li>
@@ -168,7 +168,7 @@
                                         <li><a href="services.html">Fourth Product</a></li>
                                     </ul>
                                 </li>
-                                <li><a href="#">Our Brands</a>
+                                <li ><a href="services.html">Products</a>
                                 </li>
                                 <li class="current"><a href="contact.html">Contact</a></li>
                             </ul>
@@ -274,23 +274,45 @@
                 
                 <form method="post" action="sendemail.php" id="contact-form">
 					<div class="row clearfix">
-                        <div class="form-group col-md-6 col-sm-6 col-xs-12">
-                            <input type="text" name="username" value="" placeholder="Name *">
-                        </div>
+						<div class="col-md-6">
+							<div class="form-group col-md-6 col-sm-6 col-xs-12">
+								<input type="text" name="username" value="" placeholder="Name *">
+							</div>
+		
+							<div class="form-group col-md-6 col-sm-6 col-xs-12">
+								<input type="email" name="email" value="" placeholder="Email *">
+							</div>
+		
+							<div class="form-group col-md-12 col-sm-12 col-xs-12">
+								<input type="text" name="subject" value="" placeholder="Subject *">
+							</div>
+		
+							<div class="form-group col-md-12 col-sm-12 col-xs-12">
+								<textarea name="message" placeholder="Message *"></textarea>
+							</div>
     
-                        <div class="form-group col-md-6 col-sm-6 col-xs-12">
-                            <input type="email" name="email" value="" placeholder="Email *">
-                        </div>
-    
-                        <div class="form-group col-md-12 col-sm-12 col-xs-12">
-                            <input type="text" name="subject" value="" placeholder="Subject *">
-                        </div>
-    
-                        <div class="form-group col-md-12 col-sm-12 col-xs-12">
-                            <textarea name="message" placeholder="Message *"></textarea>
-                        </div>
-    
-                        <div class="form-group col-md-12 col-sm-12 col-xs-12"><button type="submit" class="theme-btn btn-style-three">Send Message</button></div>
+							<div class="form-group col-md-12 col-sm-12 col-xs-12"><button type="submit" class="theme-btn btn-style-three">Send Message</button>
+							</div>
+						</div>
+						<div class="col-md-6">
+							<section class="map-section">
+								<div class="map-outer">
+
+									<!--Map Canvas-->
+									<div class="map-canvas"
+										data-zoom="10"
+										data-lat="16.2162439"
+										data-lng="77.3171633"
+										data-type="roadmap"
+										data-hue="#fc721e"
+										data-title="M S Agro Industries"
+										data-content="M S Agro Industries, Raichur.<br><a href='mailto:info@msagroind.com'>info@msagroind.com</a>"
+										style="height:360px;">
+									</div>
+
+								</div>
+							</section>
+						</div>
 					</div>
                 </form>
                 
@@ -301,10 +323,10 @@
     </section>
     
     <!--Map Section-->
-    <section class="map-section">
+    <!--<section class="map-section">
     	<div class="map-outer">
 
-            <!--Map Canvas-->
+            <!--Map Canvas 
             <div class="map-canvas"
                 data-zoom="10"
                 data-lat="16.2162439"
@@ -317,7 +339,7 @@
             </div>
 
         </div>
-    </section>
+    </section> -->
     
     
     <!--Main Footer-->

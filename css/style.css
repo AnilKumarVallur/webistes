@@ -8308,13 +8308,13 @@ img{
 	padding-bottom: 0px;
 	box-shadow: inset -1px -1px 7px #000;
 }
-.less-padding:after {
+.flower-image:after {
 	content: "";
     display: block;
-    /*height: 70px;*/
+    height: 20px;
     background-image: url(../images/FlowerLine.png);
-    /*background-repeat: no-repeat;
-    background-position: center bottom;*/
+    /*background-repeat: no-repeat;*/
+    background-position: center bottom;
 }
 .cus-text-center{
 	text-align:center;

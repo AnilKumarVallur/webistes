@@ -4448,7 +4448,8 @@ img{
 
 .industry-section{
 	position:relative;
-	padding:130px 0px 70px 0px;
+	padding:30px 0px 70px 0px;
+	background-color: #2B2B29;
 }
 
 .industry-section .left-column{
@@ -4500,11 +4501,11 @@ img{
 
 .industry-section .content-column .text{
 	position:relative;
-	color:#777777;
+	color:#EBF4D5;
 	font-size:16px;
 	font-weight:300;
 	margin-bottom:40px;
-	font-family: 'Roboto', sans-serif;	
+	font-family: MyraidPro !important;	
 }
 
 .industry-section .content-column ul{
@@ -5833,6 +5834,7 @@ img{
 
 .masonary-section.style-two .filters li{
 	color:#EBF4D5;
+	text-transform:uppercase;
 }
 
 .masonary-section.style-two .filters li:after{

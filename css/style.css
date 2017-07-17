@@ -844,6 +844,7 @@ img{
 	-ms-transition:all 500ms ease;
 	-o-transition:all 500ms ease;
 	z-index:5;
+	padding-bottom:0;
 }
 
 .main-header.header-style-two .header-upper,
@@ -948,6 +949,7 @@ img{
 	width:100%;
 	background:#2B2B29;
 	z-index:5;
+	border-bottom: 2px solid #FAA81A;
 }
 
 .main-header .nav-outer{
@@ -1046,7 +1048,7 @@ img{
 .main-header .main-menu .navigation > li > a{
 	position:relative;
 	display:block;
-	padding:16px 30px 16px 30px;
+	padding:5px 30px 5px 30px;
 	font-size:18px;
 	color:#EBF4D5;
 	line-height:30px;
@@ -8316,7 +8318,7 @@ img{
 }
 .footer-nav li a {
 	float: left;
-	padding: 16px 30px 16px 30px;
+	padding: 5px 30px 5px 30px;
 	text-transform:uppercase;
 	color: #EBF4D5 !important;
 	letter-spacing: 1px;

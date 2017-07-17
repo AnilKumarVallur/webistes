@@ -2245,7 +2245,8 @@ img{
 
 .sec-title-four h2{
 	position:relative;
-    color: #222222;
+    color: #EBF4D5;
+	font-family:Constantia;
     font-size: 32px;
 	font-weight:600;
     padding-bottom: 15px;
@@ -2253,7 +2254,7 @@ img{
 
 .sec-title-four h2:after{
 	position:absolute;
-	content:'';
+	/*content:'';*/
 	width:45px;
 	left:50%;
 	margin-left:-20px;
@@ -4735,7 +4736,7 @@ img{
 	display:table;
 	vertical-align:middle;
 	padding:30px 50px;
-	background:rgba(253,228,40,0.85);
+	background:#EBF4D5;
 }
 
 .default-portfolio-item .overlay-one .overlay-inner .content{
@@ -5809,11 +5810,12 @@ img{
 
 .masonary-section.style-two{
 	position:relative;
-	padding:130px 0px;
+	padding:30px 0px;
+	background-color: #2B2B29;
 }
 
 .masonary-section.style-two .sec-title-four{
-	margin-bottom:40px;	
+	margin-bottom:0;
 }
 
 .masonary-section.style-two:before{
@@ -5826,7 +5828,7 @@ img{
 }
 
 .masonary-section.style-two .filters li{
-	color:#222222;
+	color:#EBF4D5;
 }
 
 .masonary-section.style-two .filters li:after{
@@ -5836,7 +5838,7 @@ img{
 	top:0px;
 	font-size:14px;
 	display:block;
-	color:#222222;
+	color:#EBF4D5;
 }
 
 .masonary-section.style-two .filters li:last-child::after{
@@ -5844,7 +5846,7 @@ img{
 }
 
 .masonary-section.style-two .filters li.active span{
-	border-bottom:3px solid #fde428;
+	border-bottom:3px solid #FAA81A;
 	padding-bottom:10px;
 }
 

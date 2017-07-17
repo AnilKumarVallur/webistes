@@ -2130,13 +2130,13 @@ img{
 
 .sec-title-one{
 	position:relative;
-	margin-bottom:60px;
+	margin-bottom:15px;
 }
 
 .sec-title-one h2{
 	position:relative;
     color: #222222;
-    font-size: 32px;
+    font-size: 34px;
 	font-weight:600;
     padding-bottom: 15px;
 }
@@ -2154,7 +2154,7 @@ img{
 .sec-title-one .text{
 	position:relative;
 	color:#777777;
-	font-size:16px;
+	font-size:18px;
 	margin-top:35px;
 	font-weight:300;
 	font-family: 'Roboto', sans-serif;
@@ -3395,6 +3395,7 @@ img{
 .footer-bottom .footer-bottom-social li{
 	position:relative;
 	display:inline-block;
+	margin-right:4px;
 }
 
 .footer-bottom .footer-bottom-social li a{
@@ -8285,10 +8286,20 @@ img{
 	background-color: #252525;
 	border-bottom: 1px solid #FAA81A;
 	font-family: Constantia;
+	box-shadow: inset -1px -1px 8px #000;
 }
 .less-padding {
 	padding-top:30px;
 	padding-bottom: 0px;
+	box-shadow: inset -1px -1px 7px #000;
+}
+.less-padding:after {
+	/*content: "";*/
+    display: block;
+    /*height: 70px;*/
+    background-image: url(../images/FlowerLine.png);
+    /*background-repeat: no-repeat;
+    background-position: center bottom;*/
 }
 .cus-text-center{
 	text-align:center;

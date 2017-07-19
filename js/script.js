@@ -65,7 +65,7 @@
 
 		$('.main-slider .tp-banner').show().revolution({
 		  
-		  delay:10000,
+		  delay:2000,
 		  startwidth:1200,
 		  startheight:640,
 		  hideThumbs:600,

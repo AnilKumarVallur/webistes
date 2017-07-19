@@ -950,6 +950,8 @@ img{
 	background:#2B2B29;
 	z-index:5;
 	border-bottom: 2px solid #FAA81A;
+	padding-top:5px;
+	padding-bottom:5px;
 }
 
 .main-header .nav-outer{
@@ -2481,12 +2483,12 @@ img{
 .service-block-two .lower-content .outer-link .service-title{
 	position:relative;
 	display:inline-block;
-	padding:15px;
+	padding:7px;
 	line-height:24px;
 	color:#EBF4D5;
 	background:#FAA81A;
 	font-weight:600;
-	font-size:20px;
+	font-size:17px;
 	z-index:1;
 	transition:all 0.5s ease;
 	-moz-transition:all 0.5s ease;
@@ -2530,6 +2532,8 @@ img{
 	font-weight:700;
 	font-family: MyraidPro,'Roboto', sans-serif;
 	text-transform:uppercase;
+	float:right;
+	margin-top:-15px;
 }
 
 /*** 
@@ -4742,6 +4746,7 @@ img{
 	vertical-align:middle;
 	padding:30px 50px;
 	background:#EBF4D5;
+	display:none;
 }
 
 .default-portfolio-item .overlay-one .overlay-inner .content{
@@ -7154,7 +7159,9 @@ img{
 }
 
 .map-section{
-	position:relative;	
+	position:relative;
+	background-color: #2B2B29;
+	padding-bottom: 10px;
 }
 
 .map-canvas{
